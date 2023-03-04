@@ -1,0 +1,219 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+header img{
+ margin-left: 4rem;
+}
+header ul {
+ margin-right: 4rem;
+}
+header ul a{
+    margin-left: 1rem;
+    text-decoration: none;
+    color: black;
+}
+header ul a:hover{
+   border: 1px solid black; 
+}
+
+/* MAIN */
+main{
+    display: flex;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 4rem;
+}
+.container1-1{
+    display: flex;
+}
+.container1-1 h1{
+    width: 90%;
+    font-size: 2rem;
+}
+.container1-1 p{
+    width: 62%;
+    margin-left: 6rem;
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+.container1-1 button{
+    margin-left: 6rem;
+    width: 30%;
+    height: 2rem;
+    background-color: hsl(5, 85%, 63%);
+    border: #fff;
+}
+.side-box{
+    border: 2px solid black;
+    width: 25%;
+    padding-left:5px ;
+    margin-left: 1.4rem;
+    background-color: hsl(240, 100%, 5%);
+    color: #fff;
+    text-align: center;
+}
+#one{
+ font-size: 2rem;   
+}
+.side-box h1{
+    font-size: 1rem;
+}
+.side-box p{
+    font-size:0.7rem;
+    padding: 5px 5px 5px 5px ;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+footer img{
+    width: 20%;
+}
+footer h1{
+    color: hsl(233, 8%, 79%);
+}
+.box1{
+    display: flex;
+}
+#one{
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+#one p{
+    font-size: 0.7rem;
+}
+.box2{
+    display: flex;
+}
+#two{
+    font-size: 1rem;
+    margin-top: -2rem;
+    margin-left: 1rem;
+}
+#two p{
+    font-size: 0.7rem;
+}
+.box3{
+    display: flex;
+}
+#three{
+    font-size: 1rem;
+    margin-top: -2rem;
+    margin-left: 1rem;
+}
+#three p{
+    font-size: 0.7rem;
+}
+
+
+
+
+
+/* media quries */
+@media screen and (max-width: 600px){
+    header{
+        display: flex;
+        margin:0px;
+        padding: 0px;
+        margin-left: -4rem;
+    }
+    header img{
+        width: 20%;
+    }
+    header ul{
+        display: flex;
+        margin-left: -1.8rem;
+    }
+    header ul a{
+        font-size: 8px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .container1 img{
+        width: 156%;
+        margin-left: -4rem;   
+     }
+    .container1-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .container1-1 h1{
+        margin-left: -3.3rem;
+        width: 12rem;
+    }
+    .container1-1 p{
+        margin-left: -3rem;
+        width: 124%;
+        font-size: 0.8rem;
+        margin-top: -1rem;
+    }
+    .container1-1 button{
+        width: 77%;
+        margin-left: -3rem;
+        margin-bottom: 1rem;
+    }
+    .side-box{
+        width: 70%;
+    }
+    /* footer */
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: -1rem;
+        padding-bottom: 1rem;
+    }
+    footer img{
+        width: 40%;
+        height: 20%;
+    }
+    .box2 img{
+        margin-top: 1rem;
+    }
+    .box3 img{
+        margin-top: 1rem;
+    }
+   #one{
+    margin-top: -1rem;
+   }
+   #one p{
+    margin-top: -1rem;
+   }
+   #one h1{
+    font-size: 1rem;
+   }
+   #two p{
+    margin-top: -1rem;
+   }
+   #two h1{
+    font-size: 1rem;
+    margin-top: 3rem;
+   }
+   #three p{
+    margin-top: -1rem;
+   }
+   #three h1{
+    font-size: 1rem;
+    margin-top: 3rem;
+   }
+}
